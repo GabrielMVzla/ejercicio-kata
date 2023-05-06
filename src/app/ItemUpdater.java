@@ -1,2 +1,5 @@
-package app;public class ItemUpdater {
+package app;
+
+public interface ItemUpdater {
+    void updateItem(Item item);
 }
